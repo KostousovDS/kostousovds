@@ -1,0 +1,143 @@
+@import "./variables";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 2000px) {
+  .menu-dropdown {
+    display: none;
+    }
+  }
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width: 1200px) {
+    .gap {
+      display: none;
+    }
+    .carts {
+      .cart {
+        width: 89px;
+      }
+    }
+    .menu-dropdown {
+      display: none;
+    }
+  }
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width: 992px) {
+    .gap {
+      display: none;
+    }
+    .jflex {
+      justify-content: center;
+    }
+    .logo {
+      padding-top: 39px;
+    }
+    .menu-dropdown {
+      display: none;
+    }
+  }
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width: 768px) {
+    .menu-dropdown {
+      display: none;
+    }
+  }
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width: 575px) {
+    .menu-dropdown {
+      display: none;
+    }
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width: 480px) {
+    .menu-dropdown {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .carts {
+      display: none;
+    }
+    .logo {
+      padding-top: 39px;
+      position: relative;
+      top: -160px;
+    }
+
+    .menu-dropdown {
+      display: block;
+      ul {
+        position: relative;
+        top: 95px;
+        left: -75px;
+        background-color: $background-color;
+        li {
+          a {
+            color: $white;
+            text-decoration: none;
+
+            &:hover {
+              color: $gold;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width: 320px) {
+
+  }
+
+  /**/
+
+
+  /*==========  Mobile First Method  ==========*/
+
+  /* Custom, iPhone Retina */
+  @media only screen and (min-width: 320px) {
+
+  }
+
+  /**/
+
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width: 480px) {
+
+  }
+
+  /**/
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width: 768px) {
+
+  }
+
+  /**/
+
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width: 992px) {
+
+  }
+
+  /**/
+
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width: 1200px) {
+
+  }

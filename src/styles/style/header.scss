@@ -1,0 +1,61 @@
+@import "../variables";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
+
+.section-header {
+  //background-image: url("../../images/background_logo.jpg");
+  background-repeat: no-repeat;
+  background-color: $background-color;
+  height: 190px;
+}
+
+.logo {
+
+  max-width: 280px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.menu {
+  padding-right: 0;
+}
+
+
+.cart {
+  display: block;
+  width: 133px;
+  height: auto;
+  background-color: $dark-gray;
+  text-align: center;
+  color: $white;
+
+  &:active, &:hover {
+    color: $gold;
+  }
+
+  .fa {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      color: $gold;
+    }
+  }
+
+  span {
+    display: block;
+    text-transform: uppercase;
+    margin-top: 16px;
+  }
+}
+
+
+
+
